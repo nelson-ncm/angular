@@ -1,0 +1,36 @@
+
+<h2>Cadastro</h2>
+
+
+    <form>
+        <div class="input-group flex-nowrap mb-2">
+            <span class="input-group-text" id="addon-wrapping">ID</span>
+            <input type="text" class="form-control " placeholder="ID" aria-label="ID Vaga" aria-describedby="addon-wrapping" name="id" [(ngModel)] = "vaga.id">
+        </div>
+        <div class="input-group flex-nowrap mb-2">
+            <span class="input-group-text" id="addon-wrapping">Nome</span>
+            <input type="text" class="form-control" placeholder="Nome" aria-label="Nome Vaga" aria-describedby="addon-wrapping" name="nome" [(ngModel)] = "vaga.nome">
+        </div>
+        <div class="input-group flex-nowrap mb-2">
+            <span class="input-group-text" id="addon-wrapping">Foto</span>
+            <input type="text" class="form-control" placeholder="Foto" aria-label="Foto Vaga" aria-describedby="addon-wrapping" name="foto" [(ngModel)] = "vaga.foto">
+        </div>
+        <div class="input-group flex-nowrap mb-2">
+            <span class="input-group-text" id="addon-wrapping">Descrição</span>
+            <input type="text" class="form-control" placeholder="Descrição" aria-label="Descrição Vaga" aria-describedby="addon-wrapping" name="descricao" [(ngModel)] = "vaga.descricao">
+        </div>
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">Salario R$</span>
+            <input type="text" class="form-control" placeholder="Salario" aria-label="Salario Vaga" aria-describedby="addon-wrapping" name="salario" [(ngModel)] = "vaga.salario">
+        </div>
+    </form>
+
+    <div class="botao">
+        <button type="button" class="btn btn-primary m-2" (click)="cadastrar()">Cadastrar</button>
+        <button type="button" class="btn btn-success m-2" (click)="atualizar(vaga.id)">Atualizar</button>
+        <button type="button" class="btn btn-danger m-2" (click)="excluir(vaga.id)">Excluir</button>
+
+
+    </div>
+
+

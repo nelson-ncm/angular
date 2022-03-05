@@ -1,0 +1,25 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "Analista de Sistemas Front End Jr",
+      "foto": "frontend.jpeg",
+      "descricao": "Trabalhar com Angular, HTML, CSS, Node",
+      "salario": 5000
+    },
+    {
+      "id": 2,
+      "nome": "Analista de Sistemas Backend Pleno",
+      "foto": "backend.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web e Banco de Dados",
+      "salario": 7000
+    },
+    {
+      "id": 3,
+      "nome": "Analista de Sistemas Back End Senior",
+      "foto": "fullstack.jpg",
+      "descricao": "Trabalhar com Angular, Spring, Node , Banco de Dados",
+      "salario": 10000
+    }
+  ]
+}
